@@ -18,10 +18,13 @@ p{
 h1{
     text-align: center;
 }
+h2{
+    margin-left: 18px;
+}
 .index{
     margin-top: 4%;
-    margin-left:20%;
-    margin-right:20%;
+    margin-left:10%;
+    margin-right:10%;
     background-color: white;
     border-radius: 30px; 
     margin-bottom: 40px;
@@ -49,6 +52,30 @@ form{
     border-radius: 10px;
     background-color: #1cb5e0;
 }
+.inputss{
+    position: relative;
+    width: 100%;
+    margin-bottom: 25px;
+    padding-left: 50%;
+}
+.inputss input{
+    
+    padding: 0 20 px;
+    box-sizing: border-box;
+    font-size: 10 px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: #1cb5e0;
+}
+.inputss span{
+    position: absolute;
+    
+    left: 20px;
+    padding: 0px;
+    text-transform: capitalize;
+    transition: 0.5 s;
+    padding-left: 20%;
+}
 .input span{
     position: absolute;
     top: 20px;
@@ -59,7 +86,8 @@ form{
     padding-left: 20%;
 }
 .submit{
-    padding-left: 70%;
+    padding-left: 90%;
+    
 }
 .submit.input{
     background-color: #1cb5e0;
